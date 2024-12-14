@@ -1,4 +1,4 @@
-import Usermodel from "./schema/schema.js";
+import Usermodel from "../schema/schema.js";
 import bcrypt from "bcrypt"
 
 export const Register=async (req,res)=>{
